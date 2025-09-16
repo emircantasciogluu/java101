@@ -45,6 +45,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - The program prints the calculated BMI value
 
 
+- **Project7CalculatorMach**  
+  A simple calculator program using **switch-case** in Java.
+    - User enters two numbers.
+    - The program offers four operations: Addition, Subtraction, Multiplication, Division.
+    - Division includes a check to prevent division by zero.
+    - Invalid choices are handled with a default case.
+
+
 ## 🚀 How to Run
 
 1. Clone the repository:
