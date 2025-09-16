@@ -20,6 +20,13 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - The program computes the semi-perimeter: `u = (a + b + c) / 2`
     - Perimeter = `2 * u`
     - Area = `√(u * (u - a) * (u - b) * (u - c))`
+    - 
+- **Project4TaxiMeter**  
+  A Java program that calculates the taxi fare based on distance (in kilometers).
+    - Opening fee = 10 TL
+    - Cost per km = 2.20 TL
+    - Minimum fare = 20 TL (if the calculated amount is less than 20 TL, the total is set to 20 TL)
+
 
 ## 🚀 How to Run
 
