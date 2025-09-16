@@ -38,6 +38,13 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - User inputs: radius (r) and angle (α)
 
 
+- **Project6BMICalculator**  
+  A Java program that calculates the **Body Mass Index (BMI)** of the user.
+    - Formula: `BMI = weight (kg) / (height (m) * height (m))`
+    - User inputs: height in meters and weight in kilograms
+    - The program prints the calculated BMI value
+
+
 ## 🚀 How to Run
 
 1. Clone the repository:
