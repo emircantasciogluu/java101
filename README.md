@@ -83,6 +83,13 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - Temperature > 25 → *"It’s hot! Swimming would be a great idea."*
 
 
+- **Project11HoroscopeFinder**  
+  A Java program that determines the user's **zodiac sign** based on their birth date.
+    - Uses **if-else statements** instead of switch-case.
+    - Validates month and day inputs.
+    - Outputs the correct zodiac sign or an error message if the input is invalid.
+
+
 ## 🚀 How to Run
 
 1. Clone the repository:
