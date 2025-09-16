@@ -14,6 +14,13 @@ All exercises are written in **Java** using IntelliJ IDEA.
 - If the amount is **0–1000 TL**, VAT rate is **18%**.
 - If the amount is **greater than 1000 TL**, VAT rate is **8%**.
 
+- **Project3TriangleAreaCalc**  
+  A Java program that calculates the **perimeter** and **area** of a triangle using **Heron’s formula**.
+    - User inputs three sides of the triangle.
+    - The program computes the semi-perimeter `u = (a + b + c) / 2`.
+    - Perimeter = `2 * u`
+    - Area = `√(u * (u - a) * (u - b) * (u - c))`
+
 
 ## 🚀 How to Run
 1. Clone the repository:
