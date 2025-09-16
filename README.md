@@ -75,6 +75,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
         - Average < 55 → *"You failed the class."*
 
 
+- **Project10WeatherActivity**  
+  A Java program that suggests activities based on the temperature entered by the user.
+    - Temperature ≤ 0 → *"It’s very cold! You can go skiing."*
+    - 0 < Temperature ≤ 15 → *"The weather is chilly, a good time to go to the cinema."*
+    - 15 < Temperature ≤ 25 → *"Perfect weather for a picnic in the park."*
+    - Temperature > 25 → *"It’s hot! Swimming would be a great idea."*
+
+
 ## 🚀 How to Run
 
 1. Clone the repository:
