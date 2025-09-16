@@ -53,6 +53,19 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - Invalid choices are handled with a default case.
 
 
+- **Project8ResetPassword**  
+  A Java program that simulates a simple login and password reset system.
+    - User enters a **username** and **password**.
+    - If both are correct → login successful.
+    - If the password is incorrect:
+        - The user is asked if they want to reset their password.
+        - If yes → the program checks that the new password is **not the same as the old one**.
+            - If the same → prints *"Password creation failed, please enter a different password."*
+            - If different → prints *"Password created successfully."*
+        - If no → prints *"Password reset canceled."*
+    - If the username is incorrect → prints *"Login failed! Invalid username or password."*
+
+
 ## 🚀 How to Run
 
 1. Clone the repository:
