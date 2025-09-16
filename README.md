@@ -66,6 +66,15 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - If the username is incorrect → prints *"Login failed! Invalid username or password."*
 
 
+- **Project9PassOrFail**  
+  A Java program that calculates the average of five courses and checks if the student has passed or failed.
+    - The program asks the user to enter grades for Math, Physics, Chemistry, Biology, and Geography.
+    - All grades must be between **0 and 100**; otherwise, the program prints an error message.
+    - If all grades are valid:
+        - Average ≥ 55 → *"You passed the class!"*
+        - Average < 55 → *"You failed the class."*
+
+
 ## 🚀 How to Run
 
 1. Clone the repository:
