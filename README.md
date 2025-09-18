@@ -115,6 +115,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - It prints all powers of 5 less than or equal to n.
     - Results are displayed in separate sections for clarity.
 
+
+- **Project15CombinationCalc**  
+  A Java program that calculates the combination **C(n, r)** using factorials.
+    - The program asks the user to enter two numbers: **n** (total elements) and **r** (selected elements).
+    - It calculates factorials of n, r, and (n-r) using loops.
+    - Then it applies the formula: C(n, r) = n! / (r! * (n-r)!).
+    - The result (an integer) is printed on the screen.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
