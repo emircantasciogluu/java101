@@ -90,6 +90,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - Outputs the correct zodiac sign or an error message if the input is invalid.
 
 
+- **Project12DivisibleAverage**  
+  A Java program that calculates the **average** of numbers between 0 and a user-input number  
+  that are divisible by both **3** and **4**.
+    - User inputs a number (n).
+    - The program checks all numbers from 0 to n.
+    - Only numbers divisible by 3 and 4 are included.
+    - The program calculates and prints the average of these numbers.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
