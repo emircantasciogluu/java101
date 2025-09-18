@@ -107,6 +107,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - When the user enters an odd number, the loop stops.
     - Finally, the total sum is printed on the screen.
 
+
+- **Project14PowerOf4And5**  
+  A Java program that prints the powers of **4** and **5** up to a user-defined number.
+    - The program asks the user to enter a number (n).
+    - It prints all powers of 4 less than or equal to n.
+    - It prints all powers of 5 less than or equal to n.
+    - Results are displayed in separate sections for clarity.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
