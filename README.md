@@ -98,6 +98,15 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - Only numbers divisible by 3 and 4 are included.
     - The program calculates and prints the average of these numbers.
 
+
+- **Project13UntilOddBreaker**  
+  A Java program that repeatedly asks the user to enter numbers until an odd number is entered.  
+  It sums up only the numbers that are even and multiples of 4, then prints the result when the loop ends.
+    - The program continues as long as the user enters even numbers.
+    - Numbers that are divisible by 4 are added to the total.
+    - When the user enters an odd number, the loop stops.
+    - Finally, the total sum is printed on the screen.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
