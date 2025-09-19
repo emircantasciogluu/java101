@@ -168,6 +168,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - If the login fails three times, the account is blocked.
     - The program uses `switch-case` to manage the ATM menu options.
 
+
+- **Project21GCDLCMCalculator**  
+  A Java program that calculates the **Greatest Common Divisor (GCD)** and the **Least Common Multiple (LCM)** of two numbers.
+    - The program asks the user to enter two integers (n1 and n2).
+    - A for loop checks all possible divisors to find the GCD.
+    - The LCM is calculated using the formula: LCM = (n1 * n2) / GCD.
+    - Finally, both the GCD and LCM are printed on the screen.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
