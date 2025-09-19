@@ -156,6 +156,18 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - A for loop is used to add the reciprocal of each number up to n.
     - The result (a double value) is printed on the screen.
 
+
+- **Project20ATMSystem**  
+  A Java program that simulates basic **ATM operations** using a `switch-case` structure.
+    - The user has **3 login attempts** (username and password).
+    - If the login is successful, the user can:
+        1. Deposit money
+        2. Withdraw money (only if sufficient balance is available)
+        3. Check account balance
+        4. Exit the system
+    - If the login fails three times, the account is blocked.
+    - The program uses `switch-case` to manage the ATM menu options.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
