@@ -148,6 +148,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - The program sums these powered values.
     - If the sum is equal to the original number, it prints that the number is an Armstrong number; otherwise, it is not.
 
+
+- **Project19HarmonicSeries**  
+  A Java program that calculates the **harmonic series** up to a given number.
+    - The program asks the user to enter an integer **n**.
+    - It computes the sum of the series: 1 + 1/2 + 1/3 + ... + 1/n.
+    - A for loop is used to add the reciprocal of each number up to n.
+    - The result (a double value) is printed on the screen.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
