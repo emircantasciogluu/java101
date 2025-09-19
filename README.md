@@ -123,6 +123,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - Then it applies the formula: C(n, r) = n! / (r! * (n-r)!).
     - The result (an integer) is printed on the screen.
 
+
+- **Project16PowerCalculator**  
+  A Java program that calculates the result of raising a base number to an exponent using a **for loop**.
+    - The program asks the user to enter two integers: **base** and **exponent**.
+    - It initializes the result as 1.
+    - A for loop multiplies the base by itself exponent times.
+    - Finally, the program prints the result of base^exponent on the screen.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
