@@ -139,6 +139,15 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - Each digit is added to the total sum.
     - Finally, the program prints the result (the sum of all digits).
 
+
+- **Project18ArmstrongNum**  
+  A Java program that checks whether a given number is an **Armstrong number**.
+    - The program asks the user to enter an integer.
+    - It calculates the number of digits in the input.
+    - Each digit is raised to the power of the total number of digits.
+    - The program sums these powered values.
+    - If the sum is equal to the original number, it prints that the number is an Armstrong number; otherwise, it is not.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
