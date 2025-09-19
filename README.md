@@ -131,6 +131,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - A for loop multiplies the base by itself exponent times.
     - Finally, the program prints the result of base^exponent on the screen.
 
+
+- **Project17DigitSumCalculator**  
+  A Java program that calculates the **sum of digits** of a given number.
+    - The program asks the user to enter an integer.
+    - It extracts each digit using the modulo operator (%) inside a while loop.
+    - Each digit is added to the total sum.
+    - Finally, the program prints the result (the sum of all digits).
+
 ## 🚀 How to Run
 
 1. Clone the repository:
