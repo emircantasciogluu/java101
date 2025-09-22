@@ -229,6 +229,30 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
   Input: `242`  
   Output: `true`
 
+
+# Project27CalculatorMachine
+
+This project is an **Advanced Calculator** written in Java.  
+It allows the user to choose different mathematical operations from a menu and performs the calculation using methods.
+
+---
+
+## 📌 Features
+The calculator supports the following operations:
+
+1. **Addition** – Sum of two numbers
+2. **Subtraction** – Difference between two numbers
+3. **Multiplication** – Product of two numbers
+4. **Division** – Division of two numbers (with zero check)
+5. **Exponentiation** – Calculate power of a base raised to an exponent
+6. **Factorial** – Factorial of a number
+7. **Modulus** – Remainder after division
+8. **Rectangle Area & Perimeter** – Calculate area and perimeter of a rectangle
+
+---
+
+## 🖥️ Example Menu
+
 ## 🚀 How to Run
 
 1. Clone the repository:
