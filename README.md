@@ -176,6 +176,14 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - The LCM is calculated using the formula: LCM = (n1 * n2) / GCD.
     - Finally, both the GCD and LCM are printed on the screen.
 
+
+- **Project22MinMaxFinder**  
+  A Java program that finds the **minimum** and **maximum** values from a set of numbers entered by the user.
+    - The program first asks how many numbers will be entered.
+    - The user enters the numbers one by one.
+    - The program compares each input to keep track of the smallest and largest values.
+    - Finally, it prints the maximum and minimum numbers on the screen.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
