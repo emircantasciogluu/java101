@@ -214,6 +214,21 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
   Example:  
   Input: `9`  
   Output: `0 1 1 2 3 5 8 13 21`
+
+
+- **Project26PalindromNumber**  
+  A Java program that checks whether a given number is a **palindrome** using a method.
+    - A palindrome number is the same when read forwards or backwards (e.g., 121, 242).
+    - The program defines a method `isPalindrom(int number)` which:
+        - Reverses the digits of the given number.
+        - Compares the reversed number with the original.
+        - Returns `true` if they are equal, otherwise `false`.
+    - The result is printed in the `main` method.
+
+  Example:  
+  Input: `242`  
+  Output: `true`
+
 ## 🚀 How to Run
 
 1. Clone the repository:
