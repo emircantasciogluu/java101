@@ -196,6 +196,12 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - 28 → 1 + 2 + 4 + 7 + 14 = 28 → Perfect Number ✅
     - 12 → 1 + 2 + 3 + 4 + 6 = 16 → Not Perfect ❌
 
+
+- **Project24ReversePyramid**  
+  A Java program that prints an **inverted triangle star pattern** using nested loops.
+    - The program asks the user to enter the number of rows.
+    - It starts with the maximum number of stars in the first row.
+    - Each following row prints one fewer star until only one star remains.
 ## 🚀 How to Run
 
 1. Clone the repository:
