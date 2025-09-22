@@ -202,6 +202,18 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - The program asks the user to enter the number of rows.
     - It starts with the maximum number of stars in the first row.
     - Each following row prints one fewer star until only one star remains.
+
+
+- **Project25Fibonacci**  
+  A Java program that generates the **Fibonacci series** up to a user-defined number of terms.
+    - The program asks the user to enter an integer `n`.
+    - It starts with the first two numbers of the series (0 and 1).
+    - Each subsequent number is calculated as the sum of the previous two numbers.
+    - The series is printed on the screen in order.
+
+  Example:  
+  Input: `9`  
+  Output: `0 1 1 2 3 5 8 13 21`
 ## 🚀 How to Run
 
 1. Clone the repository:
