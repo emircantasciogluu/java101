@@ -184,6 +184,18 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - The program compares each input to keep track of the smallest and largest values.
     - Finally, it prints the maximum and minimum numbers on the screen.
 
+
+- **Project23PerfectNumberChecker**  
+  A Java program that checks whether a given number is a **Perfect Number**.
+    - The user enters an integer.
+    - The program finds all positive divisors of the number (excluding the number itself).
+    - If the sum of these divisors equals the number, it is identified as a Perfect Number.
+    - Otherwise, it is not a Perfect Number.
+
+  Example:
+    - 28 → 1 + 2 + 4 + 7 + 14 = 28 → Perfect Number ✅
+    - 12 → 1 + 2 + 3 + 4 + 6 = 16 → Not Perfect ❌
+
 ## 🚀 How to Run
 
 1. Clone the repository:
