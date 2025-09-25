@@ -251,6 +251,32 @@ The calculator supports the following operations:
 
 ---
 
+
+📦 OOP Package.Project29
+
+This package demonstrates Object-Oriented Programming (OOP) concepts with Teacher, Course, and Student classes.
+
+Teacher
+Fields: name, phoneNo, branch
+Methods: print() → prints teacher info
+
+Course
+Fields: name, code, prefix, grade, courseTeacher
+Methods: addTeacher() → assigns a teacher if branch matches prefix
+
+Student
+Fields: name, studentNo, className, average, isPass, and 3 courses
+Methods:
+
+addAllGrades() → adds course grades
+
+calcAverage() → calculates average
+
+checkPass() → checks if student passes
+
+MainCourse
+Demonstrates the system: creates teachers, courses, and a student, assigns grades, calculates average, and checks pass/fail.
+
 ## 🖥️ Example Menu
 
 ## 🚀 How to Run
