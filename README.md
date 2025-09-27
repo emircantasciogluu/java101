@@ -22,7 +22,7 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - The program computes the semi-perimeter: `u = (a + b + c) / 2`
     - Perimeter = `2 * u`
     - Area = `√(u * (u - a) * (u - b) * (u - c))`
-  
+
 
 - **Project4TaxiMeter**  
   A Java program that calculates the taxi fare based on distance (in kilometers).
@@ -34,7 +34,7 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
 - **Project5AreaOfCircle**  
   A Java program that calculates the **area of a circle sector** based on the radius and the central angle.
     - Formula: `(π * r² * angle) / 360`
-    - π is taken as **3.14** (as required by the assignment)
+    - π is taken as **3.14**
     - User inputs: radius (r) and angle (α)
 
 
@@ -60,224 +60,120 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - If the password is incorrect:
         - The user is asked if they want to reset their password.
         - If yes → the program checks that the new password is **not the same as the old one**.
-            - If the same → prints *"Password creation failed, please enter a different password."*
-            - If different → prints *"Password created successfully."*
         - If no → prints *"Password reset canceled."*
     - If the username is incorrect → prints *"Login failed! Invalid username or password."*
 
 
 - **Project9PassOrFail**  
   A Java program that calculates the average of five courses and checks if the student has passed or failed.
-    - The program asks the user to enter grades for Math, Physics, Chemistry, Biology, and Geography.
-    - All grades must be between **0 and 100**; otherwise, the program prints an error message.
-    - If all grades are valid:
+    - All grades must be between **0 and 100**.
+    - If valid:
         - Average ≥ 55 → *"You passed the class!"*
         - Average < 55 → *"You failed the class."*
 
 
 - **Project10WeatherActivity**  
   A Java program that suggests activities based on the temperature entered by the user.
-    - Temperature ≤ 0 → *"It’s very cold! You can go skiing."*
-    - 0 < Temperature ≤ 15 → *"The weather is chilly, a good time to go to the cinema."*
-    - 15 < Temperature ≤ 25 → *"Perfect weather for a picnic in the park."*
-    - Temperature > 25 → *"It’s hot! Swimming would be a great idea."*
+    - ≤ 0 → Skiing
+    - 0–15 → Cinema
+    - 15–25 → Picnic
+    - > 25 → Swimming
 
 
 - **Project11HoroscopeFinder**  
-  A Java program that determines the user's **zodiac sign** based on their birth date.
-    - Uses **if-else statements** instead of switch-case.
-    - Validates month and day inputs.
-    - Outputs the correct zodiac sign or an error message if the input is invalid.
+  A Java program that determines the user's **zodiac sign** based on their birth date using **if-else** statements.
 
 
 - **Project12DivisibleAverage**  
-  A Java program that calculates the **average** of numbers between 0 and a user-input number  
-  that are divisible by both **3** and **4**.
-    - User inputs a number (n).
-    - The program checks all numbers from 0 to n.
-    - Only numbers divisible by 3 and 4 are included.
-    - The program calculates and prints the average of these numbers.
+  Calculates the **average** of numbers between 0 and a user-input number divisible by **3** and **4**.
 
 
 - **Project13UntilOddBreaker**  
-  A Java program that repeatedly asks the user to enter numbers until an odd number is entered.  
-  It sums up only the numbers that are even and multiples of 4, then prints the result when the loop ends.
-    - The program continues as long as the user enters even numbers.
-    - Numbers that are divisible by 4 are added to the total.
-    - When the user enters an odd number, the loop stops.
-    - Finally, the total sum is printed on the screen.
+  Repeatedly asks the user to enter numbers until an odd number is entered.  
+  Sums only the even numbers divisible by 4 and prints the total.
 
 
 - **Project14PowerOf4And5**  
-  A Java program that prints the powers of **4** and **5** up to a user-defined number.
-    - The program asks the user to enter a number (n).
-    - It prints all powers of 4 less than or equal to n.
-    - It prints all powers of 5 less than or equal to n.
-    - Results are displayed in separate sections for clarity.
+  Prints the powers of **4** and **5** up to a user-defined number.
 
 
 - **Project15CombinationCalc**  
-  A Java program that calculates the combination **C(n, r)** using factorials.
-    - The program asks the user to enter two numbers: **n** (total elements) and **r** (selected elements).
-    - It calculates factorials of n, r, and (n-r) using loops.
-    - Then it applies the formula: C(n, r) = n! / (r! * (n-r)!).
-    - The result (an integer) is printed on the screen.
+  Calculates the combination **C(n, r)** using factorials.  
+  Formula: `C(n, r) = n! / (r! * (n-r)!)`
 
 
 - **Project16PowerCalculator**  
-  A Java program that calculates the result of raising a base number to an exponent using a **for loop**.
-    - The program asks the user to enter two integers: **base** and **exponent**.
-    - It initializes the result as 1.
-    - A for loop multiplies the base by itself exponent times.
-    - Finally, the program prints the result of base^exponent on the screen.
+  Calculates `base^exponent` using a **for loop**.
 
 
 - **Project17DigitSumCalculator**  
-  A Java program that calculates the **sum of digits** of a given number.
-    - The program asks the user to enter an integer.
-    - It extracts each digit using the modulo operator (%) inside a while loop.
-    - Each digit is added to the total sum.
-    - Finally, the program prints the result (the sum of all digits).
+  Calculates the **sum of digits** of a given number.
 
 
 - **Project18ArmstrongNum**  
-  A Java program that checks whether a given number is an **Armstrong number**.
-    - The program asks the user to enter an integer.
-    - It calculates the number of digits in the input.
-    - Each digit is raised to the power of the total number of digits.
-    - The program sums these powered values.
-    - If the sum is equal to the original number, it prints that the number is an Armstrong number; otherwise, it is not.
+  Checks whether a given number is an **Armstrong number**.
 
 
 - **Project19HarmonicSeries**  
-  A Java program that calculates the **harmonic series** up to a given number.
-    - The program asks the user to enter an integer **n**.
-    - It computes the sum of the series: 1 + 1/2 + 1/3 + ... + 1/n.
-    - A for loop is used to add the reciprocal of each number up to n.
-    - The result (a double value) is printed on the screen.
+  Calculates the harmonic series up to a given number:  
+  `1 + 1/2 + 1/3 + ... + 1/n`
 
 
 - **Project20ATMSystem**  
-  A Java program that simulates basic **ATM operations** using a `switch-case` structure.
-    - The user has **3 login attempts** (username and password).
-    - If the login is successful, the user can:
-        1. Deposit money
-        2. Withdraw money (only if sufficient balance is available)
-        3. Check account balance
-        4. Exit the system
-    - If the login fails three times, the account is blocked.
-    - The program uses `switch-case` to manage the ATM menu options.
+  Simulates basic **ATM operations** using a `switch-case`.  
+  Features: login attempts, deposit, withdraw, balance check, exit.
 
 
 - **Project21GCDLCMCalculator**  
-  A Java program that calculates the **Greatest Common Divisor (GCD)** and the **Least Common Multiple (LCM)** of two numbers.
-    - The program asks the user to enter two integers (n1 and n2).
-    - A for loop checks all possible divisors to find the GCD.
-    - The LCM is calculated using the formula: LCM = (n1 * n2) / GCD.
-    - Finally, both the GCD and LCM are printed on the screen.
+  Calculates the **Greatest Common Divisor (GCD)** and **Least Common Multiple (LCM)** of two numbers.
 
 
 - **Project22MinMaxFinder**  
-  A Java program that finds the **minimum** and **maximum** values from a set of numbers entered by the user.
-    - The program first asks how many numbers will be entered.
-    - The user enters the numbers one by one.
-    - The program compares each input to keep track of the smallest and largest values.
-    - Finally, it prints the maximum and minimum numbers on the screen.
+  Finds the **minimum** and **maximum** values from user-entered numbers.
 
 
 - **Project23PerfectNumberChecker**  
-  A Java program that checks whether a given number is a **Perfect Number**.
-    - The user enters an integer.
-    - The program finds all positive divisors of the number (excluding the number itself).
-    - If the sum of these divisors equals the number, it is identified as a Perfect Number.
-    - Otherwise, it is not a Perfect Number.
-
-  Example:
-    - 28 → 1 + 2 + 4 + 7 + 14 = 28 → Perfect Number ✅
-    - 12 → 1 + 2 + 3 + 4 + 6 = 16 → Not Perfect ❌
+  Checks whether a given number is a **Perfect Number**.  
+  Example: 28 → Perfect ✅, 12 → Not Perfect ❌
 
 
 - **Project24ReversePyramid**  
-  A Java program that prints an **inverted triangle star pattern** using nested loops.
-    - The program asks the user to enter the number of rows.
-    - It starts with the maximum number of stars in the first row.
-    - Each following row prints one fewer star until only one star remains.
+  Prints an **inverted triangle star pattern** using nested loops.
 
 
 - **Project25Fibonacci**  
-  A Java program that generates the **Fibonacci series** up to a user-defined number of terms.
-    - The program asks the user to enter an integer `n`.
-    - It starts with the first two numbers of the series (0 and 1).
-    - Each subsequent number is calculated as the sum of the previous two numbers.
-    - The series is printed on the screen in order.
-
-  Example:  
-  Input: `9`  
-  Output: `0 1 1 2 3 5 8 13 21`
+  Generates the Fibonacci series up to `n` terms.  
+  Example: Input `9` → Output `0 1 1 2 3 5 8 13 21`
 
 
 - **Project26PalindromNumber**  
-  A Java program that checks whether a given number is a **palindrome** using a method.
-    - A palindrome number is the same when read forwards or backwards (e.g., 121, 242).
-    - The program defines a method `isPalindrom(int number)` which:
-        - Reverses the digits of the given number.
-        - Compares the reversed number with the original.
-        - Returns `true` if they are equal, otherwise `false`.
-    - The result is printed in the `main` method.
-
-  Example:  
-  Input: `242`  
-  Output: `true`
+  Checks whether a given number is a palindrome using a method.
 
 
-# Project27CalculatorMachine
+- **Project27CalculatorMachine**  
+  An **Advanced Calculator** with operations:  
+  Addition, Subtraction, Multiplication, Division, Exponentiation, Factorial, Modulus, Rectangle Area & Perimeter.
 
-This project is an **Advanced Calculator** written in Java.  
-It allows the user to choose different mathematical operations from a menu and performs the calculation using methods.
 
----
+- **Project28RecursivePower**  
+  Calculates `base^exponent` using **recursion**.
 
-## 📌 Features
-The calculator supports the following operations:
 
-1. **Addition** – Sum of two numbers
-2. **Subtraction** – Difference between two numbers
-3. **Multiplication** – Product of two numbers
-4. **Division** – Division of two numbers (with zero check)
-5. **Exponentiation** – Calculate power of a base raised to an exponent
-6. **Factorial** – Factorial of a number
-7. **Modulus** – Remainder after division
-8. **Rectangle Area & Perimeter** – Calculate area and perimeter of a rectangle
+- **Project29OOPStudentSystem**  
+  Demonstrates OOP concepts with **Teacher, Course, and Student** classes.
+    - **Teacher** → has name, phoneNo, branch, and a `print()` method.
+    - **Course** → has name, code, prefix, grade, and courseTeacher; `addTeacher()` assigns a teacher if valid.
+    - **Student** → has 3 courses, can add grades, calculate average, and check pass/fail.
+    - **MainCourse** → demonstrates the system by creating teachers, courses, and a student.
+
+
+- **Project30BoxMatch**  
+  A boxing match simulation using OOP concepts.
+    - **Fighter** → has attributes (name, damage, weight, health, dodge), can attack and dodge.
+    - **Ring** → simulates the match, checks weight classes, calculates scores, and determines the winner.
+    - **MainBoxMatch** → sets up two fighters, creates a ring, and runs the match.
 
 ---
-
-
-📦 OOP Package.Project29
-
-This package demonstrates Object-Oriented Programming (OOP) concepts with Teacher, Course, and Student classes.
-
-Teacher
-Fields: name, phoneNo, branch
-Methods: print() → prints teacher info
-
-Course
-Fields: name, code, prefix, grade, courseTeacher
-Methods: addTeacher() → assigns a teacher if branch matches prefix
-
-Student
-Fields: name, studentNo, className, average, isPass, and 3 courses
-Methods:
-
-addAllGrades() → adds course grades
-
-calcAverage() → calculates average
-
-checkPass() → checks if student passes
-
-MainCourse
-Demonstrates the system: creates teachers, courses, and a student, assigns grades, calculates average, and checks pass/fail.
-
-## 🖥️ Example Menu
 
 ## 🚀 How to Run
 
