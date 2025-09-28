@@ -173,6 +173,21 @@ All exercises are written in **Java** using **IntelliJ IDEA**.
     - **Ring** → simulates the match, checks weight classes, calculates scores, and determines the winner.
     - **MainBoxMatch** → sets up two fighters, creates a ring, and runs the match.
 
+
+- **Project31HarmonicMean**  
+  A Java program that calculates the **Harmonic Mean** of numbers in an array.
+
+  **Formula:**  
+  Harmonic Mean (HM) = *n / (1/a₁ + 1/a₂ + … + 1/aₙ)*  
+  where `n` is the number of elements, and `aᵢ` are the array elements.
+
+  Example:  
+  Input Array = `{1, 2, 3, 4, 5}`  
+  Harmonic Sum = `1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.2833`  
+  Harmonic Mean = `5 / 2.2833 ≈ 2.19`
+
+  **Sample Output:**
+
 ---
 
 ## 🚀 How to Run
