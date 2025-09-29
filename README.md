@@ -272,6 +272,7 @@ Finds the **closest smaller and greater numbers** relative to a given input in a
 ### **Project33LetterAWithStars**
 
 A Java program that prints the letter **A** using a **2D array** and stars (`*`).
+
 - Creates a 6x4 matrix of strings.
 - Fills the first row, middle row, and the first/last columns with `*` to form the shape of the letter A.
 - Uses nested loops to build the pattern and prints the result row by row.
@@ -282,6 +283,7 @@ A Java program that prints the letter **A** using a **2D array** and stars (`*`)
 
 A Java program that finds **duplicate even numbers** in an array.  
 The program:
+
 - Iterates over all elements of the array.
 - Checks if the number is both **even** and **repeated**.
 - Stores duplicates only once using a helper method (`isFind`).
@@ -292,6 +294,18 @@ The program:
 
 **Output:**  
 `[2, 12, 4]`
+
+---
+
+### **Project35ArraySorter**
+
+A Java program that sorts the elements of an array in **ascending order**.
+- User first enters the **size** of the array.
+- Then provides each element one by one.
+- The program uses `Arrays.sort()` to sort the elements.
+- Finally, it prints the sorted array.
+
+**Example Run:**
 
 ## 🚀 How to Run
 
