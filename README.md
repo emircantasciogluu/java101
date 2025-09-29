@@ -1,192 +1,223 @@
-# Java101 - Learning Repository
+# 📘 Java101 - Learning Repository
 
-This repository contains my notes and small projects created during my Java learning journey.  
+This repository contains my notes and small projects created during my **Java learning journey**.  
 All exercises are written in **Java** using **IntelliJ IDEA**.
+
+---
 
 ## 📂 Projects
 
-- **Project1GradeAverage**  
-  A simple Java program that takes 5 course grades (Math, Geography, Physics, Chemistry, Biology) from the user,  
-  calculates the average (GPA), and prints whether the student passed or failed.
+### **Project1GradeAverage**
+A simple program that:
+- Takes 5 course grades (Math, Geography, Physics, Chemistry, Biology) as input
+- Calculates the average (GPA)
+- Prints whether the student passed or failed
 
+---
 
-- **Project2TaxCalculator**  
-  A Java program that calculates the price including VAT (KDV) and the tax amount.
-    - If the amount is **0–1000 TL**, VAT rate is **18%**
-    - If the amount is **greater than 1000 TL**, VAT rate is **8%**
+### **Project2TaxCalculator**
+Calculates the **price including VAT (KDV)** and the **tax amount**.
+- If amount is **0–1000 TL**, VAT = **18%**
+- If amount is **>1000 TL**, VAT = **8%**
 
+---
 
-- **Project3TriangleAreaCalc**  
-  A Java program that calculates the **perimeter** and **area** of a triangle using **Heron’s formula**.
-    - User inputs three sides of the triangle
-    - The program computes the semi-perimeter: `u = (a + b + c) / 2`
-    - Perimeter = `2 * u`
-    - Area = `√(u * (u - a) * (u - b) * (u - c))`
+### **Project3TriangleAreaCalc**
+Calculates the **perimeter** and **area** of a triangle using **Heron’s Formula**:
+- Semi-perimeter: `u = (a + b + c) / 2`
+- Perimeter: `2 * u`
+- Area: `√(u * (u - a) * (u - b) * (u - c))`
 
+---
 
-- **Project4TaxiMeter**  
-  A Java program that calculates the taxi fare based on distance (in kilometers).
-    - Opening fee = 10 TL
-    - Cost per km = 2.20 TL
-    - Minimum fare = 20 TL (if the calculated amount is less than 20 TL, the total is set to 20 TL)
+### **Project4TaxiMeter**
+Taxi fare calculator:
+- Opening fee = 10 TL
+- Cost per km = 2.20 TL
+- Minimum fare = 20 TL
 
+---
 
-- **Project5AreaOfCircle**  
-  A Java program that calculates the **area of a circle sector** based on the radius and the central angle.
-    - Formula: `(π * r² * angle) / 360`
-    - π is taken as **3.14**
-    - User inputs: radius (r) and angle (α)
+### **Project5AreaOfCircle**
+Calculates the **area of a circle sector**:
+- Formula: `(π * r² * angle) / 360`
+- π = **3.14**
 
+---
 
-- **Project6BMICalculator**  
-  A Java program that calculates the **Body Mass Index (BMI)** of the user.
-    - Formula: `BMI = weight (kg) / (height (m) * height (m))`
-    - User inputs: height in meters and weight in kilograms
-    - The program prints the calculated BMI value
+### **Project6BMICalculator**
+Body Mass Index (BMI) calculator:
+- Formula: `BMI = weight / height²`
+- Prints the calculated BMI
 
+---
 
-- **Project7CalculatorMach**  
-  A simple calculator program using **switch-case** in Java.
-    - User enters two numbers.
-    - The program offers four operations: Addition, Subtraction, Multiplication, Division.
-    - Division includes a check to prevent division by zero.
-    - Invalid choices are handled with a default case.
+### **Project7CalculatorMach**
+A **basic calculator** using `switch-case`.  
+Operations: Addition, Subtraction, Multiplication, Division.
 
+---
 
-- **Project8ResetPassword**  
-  A Java program that simulates a simple login and password reset system.
-    - User enters a **username** and **password**.
-    - If both are correct → login successful.
-    - If the password is incorrect:
-        - The user is asked if they want to reset their password.
-        - If yes → the program checks that the new password is **not the same as the old one**.
-        - If no → prints *"Password reset canceled."*
-    - If the username is incorrect → prints *"Login failed! Invalid username or password."*
+### **Project8ResetPassword**
+Simulates a **login system with password reset**:
+- Checks username + password
+- If password is wrong, allows reset (new password ≠ old password)
 
+---
 
-- **Project9PassOrFail**  
-  A Java program that calculates the average of five courses and checks if the student has passed or failed.
-    - All grades must be between **0 and 100**.
-    - If valid:
-        - Average ≥ 55 → *"You passed the class!"*
-        - Average < 55 → *"You failed the class."*
+### **Project9PassOrFail**
+- Calculates the average of 5 courses
+- Checks if average ≥ 55 → Pass, otherwise Fail
 
+---
 
-- **Project10WeatherActivity**  
-  A Java program that suggests activities based on the temperature entered by the user.
-    - ≤ 0 → Skiing
-    - 0–15 → Cinema
-    - 15–25 → Picnic
-    - > 25 → Swimming
+### **Project10WeatherActivity**
+Suggests an activity based on temperature:
+- ≤ 0 → Skiing
+- 0–15 → Cinema
+- 15–25 → Picnic
+- > 25 → Swimming
 
+---
 
-- **Project11HoroscopeFinder**  
-  A Java program that determines the user's **zodiac sign** based on their birth date using **if-else** statements.
+### **Project11HoroscopeFinder**
+Finds zodiac sign from **birth date** using `if-else`.
 
+---
 
-- **Project12DivisibleAverage**  
-  Calculates the **average** of numbers between 0 and a user-input number divisible by **3** and **4**.
+### **Project12DivisibleAverage**
+Finds the **average** of numbers divisible by 3 and 4 up to a given number.
 
+---
 
-- **Project13UntilOddBreaker**  
-  Repeatedly asks the user to enter numbers until an odd number is entered.  
-  Sums only the even numbers divisible by 4 and prints the total.
+### **Project13UntilOddBreaker**
+Takes numbers until an **odd number** is entered.  
+Sums even numbers that are multiples of 4.
 
+---
 
-- **Project14PowerOf4And5**  
-  Prints the powers of **4** and **5** up to a user-defined number.
+### **Project14PowerOf4And5**
+Prints all powers of **4** and **5** up to a user-defined number.
 
+---
 
-- **Project15CombinationCalc**  
-  Calculates the combination **C(n, r)** using factorials.  
-  Formula: `C(n, r) = n! / (r! * (n-r)!)`
+### **Project15CombinationCalc**
+Calculates combination **C(n, r)**:
+- Formula: `C(n, r) = n! / (r! * (n-r)!)`
 
+---
 
-- **Project16PowerCalculator**  
-  Calculates `base^exponent` using a **for loop**.
+### **Project16PowerCalculator**
+Calculates **base^exponent** using a loop.
 
+---
 
-- **Project17DigitSumCalculator**  
-  Calculates the **sum of digits** of a given number.
+### **Project17DigitSumCalculator**
+Finds the **sum of digits** of a number.
 
+---
 
-- **Project18ArmstrongNum**  
-  Checks whether a given number is an **Armstrong number**.
+### **Project18ArmstrongNum**
+Checks if a number is an **Armstrong number**:
+- Example: `153 = 1³ + 5³ + 3³` ✅
 
+---
 
-- **Project19HarmonicSeries**  
-  Calculates the harmonic series up to a given number:  
-  `1 + 1/2 + 1/3 + ... + 1/n`
+### **Project19HarmonicSeries**
+Calculates the harmonic series up to n:  
+`1 + 1/2 + 1/3 + … + 1/n`
 
+---
 
-- **Project20ATMSystem**  
-  Simulates basic **ATM operations** using a `switch-case`.  
-  Features: login attempts, deposit, withdraw, balance check, exit.
+### **Project20ATMSystem**
+ATM simulation with:
+1. Deposit
+2. Withdraw (balance check)
+3. Balance inquiry
+4. Exit
 
+User has **3 login attempts**.
 
-- **Project21GCDLCMCalculator**  
-  Calculates the **Greatest Common Divisor (GCD)** and **Least Common Multiple (LCM)** of two numbers.
+---
 
+### **Project21GCDLCMCalculator**
+Finds:
+- **GCD (Greatest Common Divisor)**
+- **LCM (Least Common Multiple)** → `LCM = (n1 * n2) / GCD`
 
-- **Project22MinMaxFinder**  
-  Finds the **minimum** and **maximum** values from user-entered numbers.
+---
 
+### **Project22MinMaxFinder**
+Reads multiple numbers and prints the **minimum** and **maximum**.
 
-- **Project23PerfectNumberChecker**  
-  Checks whether a given number is a **Perfect Number**.  
-  Example: 28 → Perfect ✅, 12 → Not Perfect ❌
+---
 
+### **Project23PerfectNumberChecker**
+Checks if a number is **Perfect**:
+- 28 → 1 + 2 + 4 + 7 + 14 = 28 ✅
+- 12 → 1 + 2 + 3 + 4 + 6 = 16 ❌
 
-- **Project24ReversePyramid**  
-  Prints an **inverted triangle star pattern** using nested loops.
+---
 
+### **Project24ReversePyramid**
+Prints a **reverse triangle star pattern** using nested loops.
 
-- **Project25Fibonacci**  
-  Generates the Fibonacci series up to `n` terms.  
-  Example: Input `9` → Output `0 1 1 2 3 5 8 13 21`
+---
 
+### **Project25Fibonacci**
+Prints the **Fibonacci sequence** up to n.  
+Example: Input = 9 → Output = `0 1 1 2 3 5 8 13 21`
 
-- **Project26PalindromNumber**  
-  Checks whether a given number is a palindrome using a method.
+---
 
+### **Project26PalindromNumber**
+Checks if a number is **palindrome** (same forward & backward).  
+Example: `121`, `242` ✅
 
-- **Project27CalculatorMachine**  
-  An **Advanced Calculator** with operations:  
-  Addition, Subtraction, Multiplication, Division, Exponentiation, Factorial, Modulus, Rectangle Area & Perimeter.
+---
 
+### **Project27CalculatorMachine**
+An **advanced calculator** with:
+- Addition
+- Subtraction
+- Multiplication
+- Division (zero check)
+- Exponentiation
+- Factorial
+- Modulus
+- Rectangle area & perimeter
 
-- **Project28RecursivePower**  
-  Calculates `base^exponent` using **recursion**.
+---
 
+### **Project28RecursivePower**
+Calculates exponentiation **recursively**.
 
-- **Project29OOPStudentSystem**  
-  Demonstrates OOP concepts with **Teacher, Course, and Student** classes.
-    - **Teacher** → has name, phoneNo, branch, and a `print()` method.
-    - **Course** → has name, code, prefix, grade, and courseTeacher; `addTeacher()` assigns a teacher if valid.
-    - **Student** → has 3 courses, can add grades, calculate average, and check pass/fail.
-    - **MainCourse** → demonstrates the system by creating teachers, courses, and a student.
+---
 
+### **Project29OOPStudentSystem**
+OOP demo with **Teacher, Course, Student** classes:
+- Teacher → name, phoneNo, branch
+- Course → code, prefix, assigned teacher
+- Student → courses, grades, average, pass/fail check
 
-- **Project30BoxMatch**  
-  A boxing match simulation using OOP concepts.
-    - **Fighter** → has attributes (name, damage, weight, health, dodge), can attack and dodge.
-    - **Ring** → simulates the match, checks weight classes, calculates scores, and determines the winner.
-    - **MainBoxMatch** → sets up two fighters, creates a ring, and runs the match.
+---
 
+### **Project30BoxMatch**
+Boxing simulation using OOP:
+- **Fighter** → attributes: name, damage, health, dodge chance
+- **Ring** → simulates match, checks weight class, prints scores
+- **MainBoxMatch** → runs a fight between two fighters
 
-- **Project31HarmonicMean**  
-  A Java program that calculates the **Harmonic Mean** of numbers in an array.
+---
 
-  **Formula:**  
-  Harmonic Mean (HM) = *n / (1/a₁ + 1/a₂ + … + 1/aₙ)*  
-  where `n` is the number of elements, and `aᵢ` are the array elements.
+### **Project31HarmonicMean**
+Calculates the **harmonic mean** of an array.  
+Formula: `HM = n / (1/a1 + 1/a2 + … + 1/an)`
 
-  Example:  
-  Input Array = `{1, 2, 3, 4, 5}`  
-  Harmonic Sum = `1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.2833`  
-  Harmonic Mean = `5 / 2.2833 ≈ 2.19`
+---
 
-  **Sample Output:**
+### **Project32ClosestNumberInArray**
+Finds the **closest smaller and greater numbers** relative to a given input in an array.
 
 ---
 
