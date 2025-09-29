@@ -221,6 +221,13 @@ Finds the **closest smaller and greater numbers** relative to a given input in a
 
 ---
 
+
+### **Project33LetterAWithStars**  
+  A Java program that prints the letter **A** using a **2D array** and stars (`*`).
+    - Creates a 6x4 matrix of strings.
+    - Fills the first row, middle row, and the first/last columns with `*` to form the shape of the letter A.
+    - Uses nested loops to build the pattern and prints the result row by row.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
