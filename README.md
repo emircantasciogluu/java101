@@ -300,12 +300,29 @@ The program:
 ### **Project35ArraySorter**
 
 A Java program that sorts the elements of an array in **ascending order**.
+
 - User first enters the **size** of the array.
 - Then provides each element one by one.
 - The program uses `Arrays.sort()` to sort the elements.
 - Finally, it prints the sorted array.
 
-**Example Run:**
+### **Project36ArrayFrequency**
+
+A Java program that finds the **frequency of elements** in an array.
+
+### Features:
+
+    - Iterates through the array and counts how many times each unique element appears.
+    - Uses a helper method `isFind()` to avoid printing the same element multiple times.
+    - Outputs each number alongside its frequency.
+
+### Example:
+
+  ```text
+  Array: [10, 20, 20, 10, 10, 20, 5, 20]
+  10 occurs 3 times.
+  20 occurs 4 times.
+  5 occurs 1 time.
 
 ## 🚀 How to Run
 
