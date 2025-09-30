@@ -316,13 +316,16 @@ A Java program that finds the **frequency of elements** in an array.
     - Uses a helper method `isFind()` to avoid printing the same element multiple times.
     - Outputs each number alongside its frequency.
 
-### Example:
+### **Project37NumberGuessingGame**
 
-  ```text
-  Array: [10, 20, 20, 10, 10, 20, 5, 20]
-  10 occurs 3 times.
-  20 occurs 4 times.
-  5 occurs 1 time.
+A Java program that implements a simple number guessing game.
+
+**Features:**
+- The program generates a random number between **0 and 100**.
+- The user has **5 attempts** to guess the number.
+- After each guess, the program tells the user if the guess is **too high** or **too low**.
+- If the guess is outside the range (0–100), the program asks for a valid input without losing an attempt.
+- All wrong guesses are stored and displayed at the end if the user fails.
 
 ## 🚀 How to Run
 
